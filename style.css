@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(40deg,#7f1220, #f53e57);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app {
+    height: 100vh;
+}
+
+.edit-cartao {
+    width: 650px;
+    height: 400px;
+    background-color: #fff;
+    position: relative;
+    top: 100px;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+.header-edit-cartao h2 {
+    color: #ff2323;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.edit-cartao-content {
+    max-width: 60%;
+    margin-left: auto;
+}
+
+.inputs {
+    margin-top: 20px;
+}
+
+.input input,
+.input1 input {
+    background-color: #d2daf5;
+    border: none;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    outline: none;
+    color: #4a4a4a;
+    font-size: 18px;
+}
+
+.input1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input1 > input {
+    width: 48%;
+}
+
+.footer-edit-cartao {
+    margin-top: 30px;
+}
+
+.btnSalvar {
+    width: 100%;
+    border: none;
+    height: 35px;
+    background-color: #ff2323;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.btnSalvar:hover {
+    background-color: transparent;
+    border: 2px solid #ff2323;
+    box-shadow: 0px 0px 15px #ff2323b6;
+    color: #ff2323;
+    font-weight: 600;
+}
+
+.cartao-credito {
+    max-width: 450px;
+    height: 300px;
+    position: relative;
+    bottom: 250px;
+    right: 250px;
+    color: #fff;
+    background-image: url(img/FundoCartao.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: -8px 8px 15px #00000054;
+}
+
+.cartao-credito-content {
+    padding: 5%;
+}
+
+.header-cartao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+.img-icon img{
+    height: 50px;
+    width: 100px;
+}
+
+.img-icon1 img{
+    height: 30px;
+}
+
+.body-cartao img{
+    height: 50px;
+}
+
+.numero-cartao {
+    margin-top: 20px;
+}
+
+.numero-cartao p{
+    font-size: 26px;
+}
+
+.footer-cartao {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.deleteTag {
+    color: #8c2626;
+    font-weight: 500;
+}
+
+.numero-cartao p {
+    text-align: center;
+    font-size: 30px;
+    color: #9c2121;
+    text-shadow: 0px 0px 10px #7d0a0a90;
+}
+
+.footer-cartao-nome {
+    flex: 60%;
+}
+
+.footer-cartao-valid {
+    flex: 20%;
+}
+
+.footer-cartao-icon img {
+    height: 36px;
+    width: 30px;
+    flex: 20%;
+}
+
+.qbLn {
+    width: 250px;
+    word-break: break-word;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
